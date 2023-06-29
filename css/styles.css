@@ -4040,7 +4040,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -11292,6 +11292,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 10em;
 }
 .divider-custom .divider-custom-line {
   width: 100%;
@@ -11413,13 +11414,15 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px) !important;
   padding-bottom: 6rem;
+  height: 100vh;
 }
 .masthead .masthead-heading {
-  font-size: 2.5rem !important;
-  line-height: 2rem !important;
+  font-size: 5.5rem !important;
+  line-height: 10rem !important;
 }
+
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 3.25rem !important;
 }
 .masthead .masthead-avatar {
   width: 18rem;
@@ -11542,3 +11545,25 @@ canvas{
   top: -15%;
   z-index: 0;
 }
+
+/* MY OWN STYLES */
+.grid-technologies{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 4rem;
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .grid-technologies{
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-technologies{
+    grid-template-columns: 50% 50%;
+    row-gap: 1.5rem;
+  }
+}
+
