@@ -1,0 +1,35 @@
+{
+  "title": "Desenvolvedor",
+  "navbar-links": {
+    "about-me": "Sobre mim",
+    "technologies": "Tecnologias",
+    "contact": "Contato"
+  },
+  "about-me": {
+    "first-p": "Olá, meu nome é Daniel Borba, trabalho com desenvolvimento web FullStack há mais de 2 anos e atualmente utilizo as tecnologias Angular, NodeJS, OracleDB, Typescript, Bootstrap, Git, entre outras. Também possuo conhecimento em NextJS, React, React Native, Flutter, PostgreSQL, MySQL, Prisma, Docker.",
+    "second-p": "Tive meu primeiro contato com a programação em 2017, utilizando a linguagem C durante a realização de um curso técnico em Eletrônica, no SENAI. Desde então, venho me aprofundando nas tecnologias mais atuais do mercado e me apaixonando cada vez mais pela área.",
+    "third-p": "Tenho ensino superior completo em Análise e Desenvolvimento de Sistemas - IFTM, e também fui empresário júnior na BugWare, no cargo de Gerente de Projetos durante meus últimos anos da faculdade.",
+    "fourth-p": "Com inglês avançado, tenho extrema facilidade em aprender novas tecnologias e vontade de vivenciar novas experiências."
+  },
+  "section-title": {
+    "about-me": "Sobre mim",
+    "technologies": "Tecnologias"
+  },
+  "footer": {
+    "know-more": {
+      "title": "Saiba mais",
+      "description": "Quer saber um pouco mais sobre mim ?",
+      "button": "Baixar Currículo!"
+    },
+    "social-media": {
+      "title": "Redes Sociais"
+    },
+    "contact": {
+      "title": "Entrar em contato",
+      "description": "Bora conversar um pouco ?",
+      "button": "Contato via WhatsApp!"
+    }
+  },
+  "resume-path": "./assets/Curriculum Vitae - Daniel Borba (pt-br).pdf"
+}
+

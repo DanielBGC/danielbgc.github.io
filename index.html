@@ -10,7 +10,7 @@
   <meta name="author" content="" />
   <title>Daniel Borba</title>
   <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/code.ico" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
@@ -35,8 +35,8 @@
 <body id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="#page-top">Daniel Borba G. da Costa</a>
+    <div class="container nav-header">
+        <a class="navbar-brand" href="#page-top">Daniel Borba G. da Costa</a>
       <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
         data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -44,15 +44,21 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre Mim</a>
+        <ul class="navbar-nav">
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about" data-i18n="navbar-links.about-me">Sobre Mim</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#tech">Tecnologias</a>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#tech" data-i18n="navbar-links.technologies">Tecnologias</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contato</a>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact" data-i18n="navbar-links.contact">Contato</a>
           </li>
         </ul>
       </div>
+      <label class="toggle">
+        <span class="toggle-label">pt-br</span>
+        <input class="toggle-checkbox" type="checkbox" id="toggle-language">
+        <div class="toggle-switch"></div>
+        <span class="toggle-label">en-us</span>
+      </label>
     </div>
   </nav>
   <!-- Masthead-->
@@ -61,9 +67,7 @@
       <div class="container d-flex align-items-center flex-column" style="z-index: 1;">
         <!-- Masthead Avatar Image-->
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0 d-none d-md-block">Desenvolvedor</h1>
-        <h1 class="masthead-heading text-uppercase mb-0 d-md-none d-lg-none d-xl-none d-xxl-none"
-          style="font-size: 35px !important; z-index: 1;">Desenvolvedor</h1>
+        <h1 class="masthead-heading text-uppercase mb-0 d-none d-md-block" data-i18n="title">Desenvolvedor</h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
@@ -79,7 +83,7 @@
   <section class="page-section bg-primary text-white mb-0" id="about">
     <div class="container">
       <!-- About Section Heading-->
-      <h2 class="page-section-heading text-center text-uppercase text-white">Sobre mim</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white" data-i18n="section-title.about-me">Sobre mim</h2>
       <!-- Icon Divider-->
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
@@ -89,31 +93,24 @@
       <!-- About Section Content-->
       <div class="row">
         <div class="col-lg-4 ms-auto">
-          <p style="text-align: justify;" class="lead">
-            Olá, meu nome é Daniel Borba, trabalho com desenvolvimento web FullStack há mais de 2 anos e atualmente
-            utilizo as tecnologias Angular, NodeJS, OracleDB, Typescript, Bootstrap, Git, entre outras.
+          <p style="text-align: justify;" class="lead" data-i18n="about-me.first-p">
+            Olá, meu nome é Daniel Borba, trabalho com desenvolvimento web FullStack há mais de 2 anos e atualmente utilizo as tecnologias Angular, NodeJS, OracleDB, Typescript, Bootstrap, Git, entre outras.
             Também possuo conhecimento em NextJS, React, React Native, Flutter, PostgreSQL, MySQL, Prisma, Docker.
           </p>
         </div>
         <div class="col-lg-4 ms-auto">
-          <p style="text-align: justify;" class="lead">
-            Tive meu primeiro contato com a programação em 2017, utilizando a linguagem C durante a realização de um
-            curso técnico em Eletrônica, no SENAI. Desde então, venho me aprofundando nas tecnologias mais atuais do
-            mercado e me apaixonando cada vez mais pela área.
+          <p style="text-align: justify;" class="lead" data-i18n="about-me.second-p">
+            Tive meu primeiro contato com a programação em 2017, utilizando a linguagem C durante a realização de um curso técnico em Eletrônica, no SENAI. Desde então, venho me aprofundando nas tecnologias mais atuais do mercado e me apaixonando cada vez mais pela área.
           </p>
         </div>
         <div class="col-lg-4 ms-auto">
-          <p style="text-align: justify;" class="lead">
-            Tenho ensino superior completo em Análise e Desenvolvimento de Sistemas - IFTM, e também fui empresário
-            júnior na <a target="_blank" href="https://bugware.com.br/"
-              style="color: rgb(2, 54, 112); text-decoration: none;">BugWare</a>, no cargo de Gerente de Projetos
-            durante meus últimos anos da faculdade.
+          <p style="text-align: justify;" class="lead" data-i18n="about-me.third-p">
+            Tenho ensino superior completo em Análise e Desenvolvimento de Sistemas - IFTM, e também fui empresário júnior na BugWare, no cargo de Gerente de Projetos durante meus últimos anos da faculdade.
           </p>
         </div>
         <div class="col-lg-12 ms-auto">
-          <p style="text-align: center;" class="lead">
-            Com inglês avançado, tenho extrema facilidade em aprender novas tecnologias e vontade de vivenciar novas
-            experiências.
+          <p style="text-align: center;" class="lead" data-i18n="about-me.fourth-p">
+            Com inglês avançado, tenho extrema facilidade em aprender novas tecnologias e vontade de vivenciar novas experiências.
           </p>
         </div>
       </div>
@@ -125,7 +122,7 @@
       <div class="row">
         <div class="col-md-12">
           <div>
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-2">Tecnologias</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-2" data-i18n="section-title.technologies">Tecnologias</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
               <div class="divider-custom-line"></div>
@@ -517,20 +514,20 @@
       <div class="row">
         <!-- Footer Location-->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Saiba Mais</h4>
-          <p class="lead mb-0">
+          <h4 class="text-uppercase mb-4" data-i18n="footer.know-more.title">Saiba Mais</h4>
+          <p class="lead mb-0" data-i18n="footer.know-more.description">
             Quer saber um pouco mais sobre mim ?
           </p>
-          <a style="margin-top: 15px;" class="btn btn-lg btn-outline-light" target="_blank"
+          <a style="margin-top: 15px;" class="btn btn-lg btn-outline-light" id="download-resume-link" target="_blank"
             href="./assets/Curriculum Vitae - Daniel Borba (pt-br).pdf">
             <i class="fas fa-download me-2"></i>
-            Baixar Currículo!
+            <span data-i18n="footer.know-more.button">Baixar Currículo!</span>
           </a>
 
         </div>
         <!-- Footer Social Icons-->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Redes Sociais</h4><br>
+          <h4 class="text-uppercase mb-4" data-i18n="footer.social-media.title">Redes Sociais</h4><br>
           <a class="btn btn-outline-light btn-social mx-1" target="_blank"
             href="https://www.linkedin.com/in/danielbgc/"><i class="fab fa-fw fa-linkedin-in"></i></a>
           <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/DanielBGC"><i
@@ -542,14 +539,14 @@
         </div>
         <!-- Footer About Text-->
         <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">Entrar em Contato</h4>
-          <p class="lead mb-0">
+          <h4 class="text-uppercase mb-4" data-i18n="footer.contact.title">Entrar em Contato</h4>
+          <p class="lead mb-0" data-i18n="footer.contact.description">
             Bora conversar um pouco ?
           </p>
           <a style="margin-top: 15px;" class="btn btn-lg btn-outline-light" target="_blank"
             href="https://api.whatsapp.com/send?phone=5534991188815">
             <i class="fab fa-fw fa-whatsapp"></i>
-            Contato via WhatsApp!
+            <span data-i18n="footer.contact.button">Contato via WhatsApp!</span>
           </a>
         </div>
       </div>
@@ -562,7 +559,8 @@
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="languages/script.js" ></script>
   <script type="text/javascript" src="./particles/app.js"></script>
   <!-- <script type="text/javascript" src="./particles/particles.js"></script> -->
 </body>

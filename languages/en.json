@@ -1,0 +1,34 @@
+{
+  "title": "Developer",
+  "navbar-links": {
+    "about-me": "About me",
+    "technologies": "Technologies",
+    "contact": "Contact"
+  },
+  "about-me": {
+    "first-p": "Hello, my name is Daniel Borba, and I have been working in FullStack web development for over 2 years. Currently, my primary technologies are Angular, Node.js, OracleDB, TypeScript, Bootstrap, and Git. Additionally, I have experience and knowledge in Next.js, React, React Native, Flutter, PostgreSQL, MySQL, Prisma, and Docker.",
+    "second-p": "I had my initial exposure to programming in 2017 when I started a technical course in Electronics at SENAI, where I learned the C language. Since then, I have been continuously expanding my knowledge and skills in the latest technologies, keeping up with the ever-evolving market trends. This journey has only strengthened my passion for the field.",
+    "third-p": "I have successfully completed my higher education in Systems Analysis and Development at IFTM. During my college years, I had the opportunity to work as a Project Manager at BugWare, a junior entrepreneurship initiative. This experience greatly enriched my practical skills and provided me with valuable insights into project management.",
+    "fourth-p": "With a proficient level of English, I have a natural aptitude for quickly grasping and adapting to new technologies. I am highly motivated to seek out new experiences and challenges in my professional journey."
+  },
+  "section-title": {
+    "about-me": "About me",
+    "technologies": "Technologies"
+  },
+  "footer": {
+    "know-more": {
+      "title": "Know more",
+      "description": "Do you want to know a little more about me ?",
+      "button": "Download Resume!"
+    },
+    "social-media": {
+      "title": "Social Media"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "description": "Let's talk a little ?",
+      "button": "Contact via WhatsApp!"
+    }
+  },
+  "resume-path": "./assets/Curriculum Vitae - Daniel Borba (en-us).pdf"
+}
